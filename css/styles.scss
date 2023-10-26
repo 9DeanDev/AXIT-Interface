@@ -1,0 +1,260 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+Header {
+
+    .logo {
+        display: flex;
+        align-items: baseline;
+        gap: 1px;
+        font-size: 37px;
+
+        .AX {
+            font-weight: 600;
+        }
+
+        .IT {
+            color: #ff9b51;
+            font-weight: 300;
+        }
+    }
+}
+
+Content {
+
+    .section1 {
+        display: flex;
+        background-image: url(../assets/cityscape-city-sunlight-sunset-landscape-photography-1477181-wallhere.com.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        min-height: 104vh;
+
+        .left_container {
+            flex: 50%;
+
+            .logo {
+                display: flex;
+                align-items: baseline;
+                gap: 1px;
+                font-size: 82px;
+
+                .AX {
+                    font-weight: 600;
+                }
+
+                .IT {
+                    color: #ff9b51;
+                    font-weight: 200;
+                }
+            }
+
+            .title {
+                margin: 0 0 27px 0;
+                font-size: 38px;
+                font-weight: 300;
+                line-height: 45px;
+            }
+
+            .text {
+                margin: 35px 0 50px 0;
+                font-weight: 200;
+            }
+
+            .btn_download {
+                text-align: center;
+                width: 135px;
+                border: 2px solid white;
+                color: #ffffff;
+                outline: none;
+                background: rgba(190, 190, 190, 0);
+                padding: 8px 16px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        .invisible_container {
+            flex: 15%
+        }
+
+        .right_container {
+            flex: 35%;
+            // max-height: 250px;
+
+            .edit_form {
+                display: flex;
+                flex-direction: column;
+                background: #ffffff;
+                border-radius: 4px;
+                gap: 28px;
+
+
+                .title {
+                    background: #f7f7f7;
+                    color: #000;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                    padding: 11px 0;
+                    border-radius: 4px 4px 0 0;
+                    white-space: normal;
+
+                    .free {
+                        color: #ff9b51;
+                    }
+                }
+
+                .inp_container {
+                    display: flex;
+                    flex-direction: column;
+                    background: #ffffff;
+                    padding: 7px 53px;
+                    gap: 39px;
+
+                    .inp {
+                        color: rgb(0, 0, 0);
+                        border: none;
+                        outline: none;
+                        border-bottom: 1px solid rgb(190, 190, 190);
+                    }
+                }
+
+                .start_btn {
+                    width: 100%;
+                    margin-top: 40px;
+                    background: #ff9b51;
+                    color: #ffffff;
+                    text-align: center;
+                    padding: 15px 0;
+                    border-radius: 0 0 4px 4px;
+                    border: none;
+                    outline: none;
+                }
+
+                .start_btn:hover {
+                    background: #fca460;
+                }
+            }
+        }
+    }
+
+    .section2 {
+        display: flex;
+        background: whitesmoke;
+        color: #000 !important;
+        height: auto;
+        min-height: 96vh;
+
+        .left_container {
+            flex: 20%;
+
+            .a {
+                width: 110px;
+                font-size: 15px;
+                font-weight: 600;
+                text-align: center;
+                padding: 45px 30px;
+                border: none;
+                color: #ffffff;
+                background: #333333;
+            }
+
+            .active {
+                background: #ff9b51;
+                border: none;
+            }
+        }
+
+        .center_container {
+            flex: 50%;
+            gap: 30px;
+
+            .title {
+                font-weight: 600;
+            }
+
+            .text {
+                margin: 50px 0;
+            }
+
+            .btn_download {
+                text-align: center;
+                width: 119px;
+                color: #ffffff;
+                border: none;
+                outline: none;
+                border-radius: 4px;
+                background: #ff9b51;
+                padding: 12px 0;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .btn_download:hover {
+                background: #fca460;
+            }
+        }
+
+        .right_container {
+            flex: 30%;
+        }
+    }
+
+    .section3 {
+        display: flex;
+        background: rgb(255, 255, 255);
+        color: #000 !important;
+        height: auto;
+        min-height: 94vh;
+
+        .left_container {
+            flex: 43%;
+        }
+
+        .invisible_container {
+            flex: 19%;
+        }
+
+        .right_container {
+            flex: 38%;
+
+            .title {}
+
+            .text {
+                color: grey;
+            }
+
+            .list_down,
+            .list_up {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .icon {}
+
+                .content {
+                    .content_title {
+                        font-weight: 600;
+                    }
+
+                    .content_text {
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }
+}
