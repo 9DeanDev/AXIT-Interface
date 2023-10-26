@@ -1,0 +1,268 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+Header .logo {
+    display: flex;
+    align-items: baseline;
+    gap: 1px;
+    font-size: 37px;
+}
+
+Header .logo .AX {
+    font-weight: 600;
+}
+
+Header .logo .IT {
+    color: #ff9b51;
+    font-weight: 300;
+}
+
+Content .section1 {
+    display: flex;
+    background-image: url(../assets/cityscape-city-sunlight-sunset-landscape-photography-1477181-wallhere.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 104vh;
+}
+
+Content .section1 .left_container {
+    flex: 50%;
+}
+
+Content .section1 .left_container .logo {
+    display: flex;
+    align-items: baseline;
+    gap: 1px;
+    font-size: 82px;
+}
+
+Content .section1 .left_container .logo .AX {
+    font-weight: 600;
+}
+
+Content .section1 .left_container .logo .IT {
+    color: #ff9b51;
+    font-weight: 200;
+}
+
+Content .section1 .left_container .title {
+    margin: 0 0 27px 0;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+Content .section1 .left_container .text {
+    margin: 35px 0 50px 0;
+    font-weight: 200;
+}
+
+Content .section1 .left_container .btn_download {
+    text-align: center;
+    width: 135px;
+    border: 2px solid white;
+    color: #fff;
+    outline: none;
+    background: rgba(190, 190, 190, 0);
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+Content .section1 .invisible_container {
+    flex: 15%;
+}
+
+Content .section1 .right_container {
+    flex: 35%;
+}
+
+Content .section1 .right_container .edit_form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 4px;
+    gap: 28px;
+}
+
+Content .section1 .right_container .edit_form .title {
+    background: #f7f7f7;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 11px 0;
+    border-radius: 4px 4px 0 0;
+    white-space: normal;
+}
+
+Content .section1 .right_container .edit_form .title .free {
+    color: #ff9b51;
+}
+
+Content .section1 .right_container .edit_form .inp_container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 7px 53px;
+    gap: 39px;
+}
+
+Content .section1 .right_container .edit_form .inp_container .inp {
+    color: #000;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bebebe;
+}
+
+Content .section1 .right_container .edit_form .start_btn {
+    width: 100%;
+    margin-top: 40px;
+    background: #ff9b51;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 0 0 4px 4px;
+    border: none;
+    outline: none;
+}
+
+Content .section1 .right_container .edit_form .start_btn:hover {
+    background: #fca460;
+}
+
+Content .section2 {
+    display: flex;
+    background: whitesmoke;
+    color: #000 !important;
+    height: auto;
+    min-height: 96vh;
+}
+
+Content .section2 .left_container {
+    flex: 20%;
+}
+
+Content .section2 .left_container .a {
+    width: 110px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 45px 30px;
+    border: none;
+    color: #fff;
+    background: #333;
+}
+
+Content .section2 .left_container .active {
+    background: #ff9b51;
+    border: none;
+}
+
+Content .section2 .center_container {
+    flex: 50%;
+    gap: 30px;
+}
+
+Content .section2 .center_container .title {
+    font-weight: 600;
+}
+
+Content .section2 .center_container .text {
+    margin: 50px 0;
+}
+
+Content .section2 .center_container .btn_download {
+    text-align: center;
+    width: 119px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #ff9b51;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+Content .section2 .center_container .btn_download:hover {
+    background: #fca460;
+}
+
+Content .section2 .right_container {
+    flex: 30%;
+    margin: 10px 0;
+}
+
+Content .section3 {
+    display: flex;
+    background: #fff;
+    color: #000 !important;
+    height: auto;
+    min-height: 96vh;
+}
+
+Content .section3 .left_container {
+    flex: 43%;
+}
+
+Content .section3 .invisible_container {
+    flex: 19%;
+}
+
+Content .section3 .right_container {
+    flex: 38%;
+    margin: 10px 0;
+}
+
+Content .section3 .right_container .text {
+    color: grey;
+}
+
+Content .section3 .right_container .list_down,
+Content .section3 .right_container .list_up {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+Content .section3 .right_container .list_down .content .content_title,
+Content .section3 .right_container .list_up .content .content_title {
+    font-weight: 600;
+}
+
+Content .section3 .right_container .list_down .content .content_text,
+Content .section3 .right_container .list_up .content .content_text {
+    color: grey;
+}
+
+Content .section4 {
+    background: whitesmoke;
+    height: auto;
+    min-height: 84vh;
+}
+
+Content .section4 .left_container {
+    flex: 43%;
+}
+
+Content .section4 .invisible_container {
+    flex: 19%;
+}
+
+Content .section4 .right_container {
+    flex: 38%;
+    margin: 10px 0;
+}

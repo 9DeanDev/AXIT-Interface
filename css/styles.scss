@@ -210,6 +210,7 @@ Content {
 
         .right_container {
             flex: 30%;
+            margin: 10px 0;
         }
     }
 
@@ -218,7 +219,7 @@ Content {
         background: rgb(255, 255, 255);
         color: #000 !important;
         height: auto;
-        min-height: 94vh;
+        min-height: 96vh;
 
         .left_container {
             flex: 43%;
@@ -230,6 +231,7 @@ Content {
 
         .right_container {
             flex: 38%;
+            margin: 10px 0;
 
             .title {}
 
@@ -261,7 +263,7 @@ Content {
     .section4 {
         background: whitesmoke;
         height: auto;
-        min-height: 90vh;
+        min-height: 84vh;
 
         .left_container {
             flex: 43%;
@@ -273,6 +275,7 @@ Content {
 
         .right_container {
             flex: 38%;
+            margin: 10px 0;
         }
     }
 }
