@@ -22,55 +22,53 @@
 <body>
     <!-- <div class="root container"> -->
     <!-- Header -->
-    <Header>
-        <div class="container-fluid px-5 bg-dark py-2 text-white">
-            <div class="container px-5 d-flex flex-wrap align-items-center justify-content-center">
-                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <div class="logo">
-                        <span class="AX">
-                            AX
-                        </span>
-                        <span class="IT">
-                            IT
-                        </span>
-                    </div>
-                </a>
-                <ul class="nav col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            Features
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
+    <Header class="container-fluid px-5 bg-dark py-2 text-white">
+        <div class="container px-5 d-flex flex-wrap align-items-center justify-content-center">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <div class="logo">
+                    <span class="AX">
+                        AX
+                    </span>
+                    <span class="IT">
+                        IT
+                    </span>
+                </div>
+            </a>
+            <ul class="nav col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        Features
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
 
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
 
-                            Pricing
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
+                        Pricing
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
 
-                            Reviews
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
+                        Reviews
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
 
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                        Contact
+                    </a>
+                </li>
+            </ul>
         </div>
     </Header>
     <!-- Body -->
-    <Content class="">
+    <Content>
         <!-- Section 1 -->
         <div
             class="section1 container-fluid py-2 flex-wrap text-white d-flex align-items-center justify-content-center">
@@ -120,17 +118,16 @@
         <!-- Section 2 -->
         <div
             class="section2 container-fluid px-3 py-2 d-flex flex-wrap align-items-center justify-content-center text-white ">
-            <div class="container px-5 d-flex flex-wrap justify-content-between align-items-center">
-                <div class="left_container list-group d-flex flex-column my-2 my-lg-0 me-lg-auto text-white 
-                        text-decoration-none text-start" id="myList" role="tablist">
-                    <!-- <div class="list-group" id="myList" role="tablist"> -->
-                    <a class="a list-group-item list-group-item-action active" data-bs-toggle="list" href="#tab1"
-                        role="tab">TAB 1</a>
-                    <a class="a list-group-item list-group-item-action" data-bs-toggle="list" href="#tab2"
-                        role="tab">TAB 2</a>
-                    <a class="a list-group-item list-group-item-action" data-bs-toggle="list" href="#tab3"
-                        role="tab">TAB 3</a>
-                    <!-- </div> -->
+            <div class="container px-5 d-md-flex flex-md-row justify-content-between align-items-center">
+                <div class="left_container list-group " id="myList" role="tablist">
+                    <div class="list-group d-flex flex-md-column" id="myList" role="tablist">
+                        <a class="a list-group-item list-group-item-action active" data-bs-toggle="list" href="#tab1"
+                            role="tab">TAB 1</a>
+                        <a class="a list-group-item list-group-item-action" data-bs-toggle="list" href="#tab2"
+                            role="tab">TAB 2</a>
+                        <a class="a list-group-item list-group-item-action" data-bs-toggle="list" href="#tab3"
+                            role="tab">TAB 3</a>
+                    </div>
                 </div>
                 <div class="center_container col-lg-auto d-flex flex-wrap my-2 p-2 my-md-0">
                     <div class="tab-content d-flex flex-wrap">
@@ -195,14 +192,12 @@
         <!-- Section 3 -->
         <div
             class="section3 container-fluid px-3 py-2 d-flex flex-wrap align-items-center justify-content-center text-white ">
-            <div class="container px-5 d-flex">
-                <div class="left_container d-flex flex-column my-2 my-lg-0 me-lg-auto text-white 
-                        text-decoration-none text-start">
+            <div class="container px-5 d-md-flex flex-md-row">
+                <div class="left_container d-flex justify-content-between align-items-center">
                     <img src="./assets/section3img.jpg">
                 </div>
                 <div class="invisible_container"></div>
-                <div class="right_container col-lg-auto d-flex flex-column gap-3 justify-content-center  
-                        col-lg-auto my-2 my-md-0">
+                <div class="right_container d-flex flex-column gap-3">
                     <h5 class="title">
                         Sub list section
                     </h5>
@@ -241,7 +236,25 @@
                 </div>
             </div>
         </div>
-        </div>
+        <!-- Section 4 -->
+        <div class="section4 container-fluid px-5 d-flex align-items-center">
+            <div class="container px-5 d-md-flex flex-md-row align-items-center">
+                <div class="left_container d-flex flex-column justify-content-center">
+                    <h5 class="title">
+                        Standard Picture Section
+                    </h5>
+                    <div style="width: 16%; height: 2px; color: #f27a18;"></div>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aliquid delectus!
+                        Obcaecati tempora deleniti molestiae doloribus unde reprehenderit ad quam velit, atque eos
+                        possimus dicta sint neque laborum voluptatibus in.
+                    </div>
+                </div>
+                <div class="invisible_container"></div>
+                <div class="right_container justify-content-between align-items-center">
+                    <img src="./assets/cityscape-city-sunlight-sunset-landscape-photography-1477181-wallhere.com.jpg">
+                </div>
+            </div>
         </div>
     </Content>
     <Footer>

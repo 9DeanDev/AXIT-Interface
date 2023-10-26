@@ -257,4 +257,22 @@ Content {
             }
         }
     }
+
+    .section4 {
+        background: whitesmoke;
+        height: auto;
+        min-height: 90vh;
+
+        .left_container {
+            flex: 43%;
+        }
+
+        .invisible_container {
+            flex: 19%;
+        }
+
+        .right_container {
+            flex: 38%;
+        }
+    }
 }
