@@ -293,11 +293,11 @@ h5 {
 Content .section5 {
     background: rgb(255, 255, 255);
     height: auto;
-    min-height: 95vh;
+    min-height: 96vh;
     padding: 50px 0 !important;
 }
 
-Content .section5 .top_container {}
+/* Content .section5 .top_container {} */
 
 Content .section5 .top_container .title {
     font-size: 38px;
@@ -309,12 +309,127 @@ Content .section5 .top_container .text {
     text-align: center;
 }
 
-/* Content .section5 .bottom_container {}
+/* Content .section5 .bottom_container {} */
 
-Content .section5 .bottom_container .reason_listChild {}
+Content .section5 .bottom_container .reason_listChild {
+    margin: 48px 0;
+    text-align: center;
+}
 
-Content .section5 .bottom_container .reason_listChild .icon {}
+/* Content .section5 .bottom_container .reason_listChild .icon {} */
 
-Content .section5 .bottom_container .reason_listChild .title {}
+Content .section5 .bottom_container .reason_listChild .title {
+    font-weight: 700;
+    font-size: 20px;
+}
 
-Content .section5 .bottom_container .reason_listChild .text {} */
+Content .section5 .bottom_container .reason_listChild .text {
+    text-align: center;
+}
+
+Content .section6 {
+    background-image: url(../assets/section6img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: auto;
+    min-height: 52vh;
+
+}
+
+Content .section6 .st6 {
+    padding: 50px 0;
+    gap: 33px;
+}
+
+Content .section6 .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+Content .section6 .text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+Content .section6 .btn {
+    width: 135px;
+    padding: 9px 0;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 0;
+}
+
+/* s */
+Content .section7 {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    min-height: 98vh;
+    padding: 50px 0 !important;
+    gap: 40px;
+}
+
+Content .section7 .top_container {
+    gap: 25px
+}
+
+Content .section7 .top_container .title {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+Content .section7 .top_container .text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+Content .section7 .mid_container {
+    gap: 25px
+}
+
+Content .section7 .mid_container .left_container {
+    gap: 40px;
+    flex: 50%;
+    margin: 40px 0 0 0;
+}
+
+Content .section7 .mid_container .left_container .inp {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+Content .section7 .mid_container .right_container {
+    margin: 40px 0 0 0;
+    flex: 50%;
+}
+
+Content .section7 .mid_container .right_container .inp_mes {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    width: 100%;
+}
+
+Content .section7 .bottom_container button {
+    width: 145px;
+    color: #fff;
+    background-color: #ff9b51;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 11px 0px;
+}
+
+Content .section7 .bottom_container button:hover {
+    background-color: #ffb073;
+}
+
+Footer {
+    background-color: #000;
+    height: auto;
+    min-height: 15vh;
+}
