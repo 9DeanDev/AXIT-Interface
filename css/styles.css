@@ -160,22 +160,22 @@ Content .section2 {
 
 Content .section2 .left_container {
     flex: 20%;
+    margin-bottom: 30px;
 }
 
-Content .section2 .left_container .a {
+Content .section2 .left_container .tab_links {
     width: 110px;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
     padding: 45px 30px;
-    border: none;
+    border: 1px solid white;
     color: #fff;
     background: #333;
 }
 
 Content .section2 .left_container .active {
     background: #ff9b51;
-    border: none;
 }
 
 Content .section2 .center_container {
@@ -183,15 +183,19 @@ Content .section2 .center_container {
     gap: 30px;
 }
 
-Content .section2 .center_container .title {
+Content .section2 .center_container .tab_content {
+    display: none;
+}
+
+Content .section2 .center_container .tab_content .title {
     font-weight: 600;
 }
 
-Content .section2 .center_container .text {
+Content .section2 .center_container .tab_content .text {
     margin: 50px 0;
 }
 
-Content .section2 .center_container .btn_download {
+Content .section2 .center_container .tab_content .btn_download {
     text-align: center;
     width: 119px;
     color: #fff;
@@ -211,10 +215,6 @@ Content .section2 .center_container .btn_download:hover {
 Content .section2 .right_container {
     flex: 30%;
     margin: 10px 0;
-}
-
-Content .section2 img {
-    background-image: none;
 }
 
 Content .section3 {
