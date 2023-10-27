@@ -83,6 +83,10 @@ Content .section1 .left_container .btn_download {
     font-weight: 500;
 }
 
+Content .section1 .left_container .btn_download:hover {
+    background: rgba(190, 190, 190, 0.2);
+}
+
 Content .section1 .invisible_container {
     flex: 15%;
 }
