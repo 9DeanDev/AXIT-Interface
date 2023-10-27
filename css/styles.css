@@ -35,10 +35,12 @@ Content .section1 {
     background-size: cover;
     height: auto;
     min-height: 104vh;
+    padding: 50px 0 !important;
 }
 
 Content .section1 .left_container {
     flex: 50%;
+    margin: 40px 0 !important;
 }
 
 Content .section1 .left_container .logo {
@@ -149,6 +151,7 @@ Content .section2 {
     color: #000 !important;
     height: auto;
     min-height: 96vh;
+    padding: 50px 0 !important;
 }
 
 Content .section2 .left_container {
@@ -206,12 +209,17 @@ Content .section2 .right_container {
     margin: 10px 0;
 }
 
+Content .section2 img {
+    background-image: none;
+}
+
 Content .section3 {
     display: flex;
     background: #fff;
     color: #000 !important;
     height: auto;
     min-height: 96vh;
+    padding: 50px 0 !important;
 }
 
 Content .section3 .left_container {
@@ -238,6 +246,11 @@ Content .section3 .right_container .list_up {
     gap: 24px;
 }
 
+Content .section3 .right_container .list_down .icon,
+Content .section3 .right_container .list_up .icon {
+    cursor: pointer;
+}
+
 Content .section3 .right_container .list_down .content .content_title,
 Content .section3 .right_container .list_up .content .content_title {
     font-weight: 600;
@@ -252,6 +265,7 @@ Content .section4 {
     background: whitesmoke;
     height: auto;
     min-height: 84vh;
+    padding: 50px 0 !important;
 }
 
 Content .section4 .left_container {
@@ -266,3 +280,41 @@ Content .section4 .right_container {
     flex: 38%;
     margin: 10px 0;
 }
+
+h5 {
+    font-weight: 600;
+}
+
+.section3 img,
+.section4 img {
+    box-shadow: 2px 2px 15px 2px gray;
+}
+
+Content .section5 {
+    background: rgb(255, 255, 255);
+    height: auto;
+    min-height: 95vh;
+    padding: 50px 0 !important;
+}
+
+Content .section5 .top_container {}
+
+Content .section5 .top_container .title {
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+}
+
+Content .section5 .top_container .text {
+    text-align: center;
+}
+
+/* Content .section5 .bottom_container {}
+
+Content .section5 .bottom_container .reason_listChild {}
+
+Content .section5 .bottom_container .reason_listChild .icon {}
+
+Content .section5 .bottom_container .reason_listChild .title {}
+
+Content .section5 .bottom_container .reason_listChild .text {} */
